@@ -26,3 +26,6 @@ script:
   - coverage xml -o shippable/codecoverage/coverage.xml test.py
   - echo $foo
   - echo $var
+
+parallelized_test : true
+archive: true
